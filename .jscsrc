@@ -1,0 +1,27 @@
+{
+  "disallowMultipleVarDecl": true,
+  "requireCurlyBraces":["if","else","try","catch"],
+  "requireSpaceBeforeBlockStatements": true,
+  "requireParenthesesAroundIIFE": true,
+  "disallowSpacesInCallExpression": true,
+  "requireBlocksOnNewline": 1,
+  "disallowPaddingNewlinesInBlocks": true,
+  "disallowEmptyBlocks": true,
+  "disallowQuotedKeysInObjects": "allButReserved",
+  "disallowDanglingUnderscores": true, 
+  "disallowSpaceAfterObjectKeys": true,
+  "requireCommaBeforeLineBreak": true,
+  "requireOperatorBeforeLineBreak": true,
+  "disallowSpaceAfterPrefixUnaryOperators": true,
+  "disallowSpaceBeforePostfixUnaryOperators": true,
+  "disallowKeywords": ["with"],
+  "disallowMultipleLineStrings": true,
+  "disallowMultipleLineBreaks": true,
+  "disallowMixedSpacesAndTabs": true,
+  "requireLineFeedAtFileEnd": true,
+  "requireCapitalizedConstructors": true,
+  "disallowYodaConditions": true,
+  "validateLineBreaks": "LF",
+  "validateIndentation": 4
+}
+
