@@ -9,3 +9,4 @@ sudo chmod 755 ~jlake/.ssh/authorized_keys
 sudo chown jlake:jlake ~jlake/.ssh
 sudo chown jlake:jlake ~jlake/.ssh/authorized_keys
 sudo bash -c 'echo "%admin ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/91-admin'
+sudo chmod 0440 /etc/sudoers.d/91-admin
