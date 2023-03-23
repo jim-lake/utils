@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+# bash <(curl -s https://raw.githubusercontent.com/jim-lake/utils/master/scripts/add-jlake-deb.sh)
 
 sudo adduser --disabled-password --gecos "" -q jlake
 sudo usermod -a -G admin jlake
